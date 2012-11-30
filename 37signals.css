@@ -1,0 +1,309 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+#wrapper {
+	width: 100%;
+	position: relative;
+}
+
+#nav ul {
+	font-family: 'Lucida Grande', sans-serif;
+	font-size: 12px;
+	float: right;
+	padding-bottom: 30px;
+	margin-right: 50px;
+}
+
+#nav ul li {
+	float: left; /* not sticking to right side */
+}
+
+#nav ul li.date {
+	position: absolute; /* fix for having one ul and positioning in a different place */
+	left: 45px;
+	top: 35px;
+	color: #999;
+}
+
+#nav ul li a {
+	text-decoration: none;
+	display: inline;
+	color: #369;
+	padding: 10px;
+	margin-top: 20px;
+	float: right;
+}
+
+#nav ul li a:hover {
+	color: #63b9d5;
+}
+
+#nav ul li:last-child a {
+	color: #6dd6f8;
+}
+
+div.container {
+	clear: both;
+	text-align: center;
+	margin: 0 auto 30px;
+	width: 820px;
+}
+
+h1.title {
+	font-family: "Crimson Text", "Times New Roman", Georgia, serif;
+	font-weight: 600;
+	font-size: 58px;
+	color: #232323;
+	padding: 10px;
+	margin-top: 10px 0 20px 0;
+	letter-spacing: -2px;
+}
+
+h5.subtitle {
+	font-size: 20px;
+	padding: 20px;
+}
+
+div.product-boxes-div {
+	position: relative;
+	text-align: center;
+}
+
+.product-box {
+	float: left;
+	width: 160px;
+	border: 1px solid #E8E8E8;
+	border-radius: 5px;
+	background: -webkit-linear-gradient(top, #FFFFFF, #EFEFEF);
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	padding: 20px 8px 5px 8px;
+	margin: 0 30px;     /*can't figure out how to center */
+	box-shadow: 0 0 5px #EFEFEF;
+}
+
+.product-box h3 {
+	font-size: 21px;
+	color: #369;
+	font-weight: bold;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+h3 span {
+	text-decoration: underline;
+}
+
+span.sup {
+	vertical-align: super;
+	text-decoration: none;
+	font-size: 50%;
+	font-weight: 400;
+}
+
+.product-box h4{
+	font-size: 14px;
+	color: #C00;
+	padding: 5px;
+}
+
+.product-box p.short-des {
+	font-size: 14px;
+	color: #222;
+	margin: 10px 0 20px 0;	
+}
+
+.productbox h3.sup {
+	vertical-align: super;
+	text-decoration: none;
+	font-size: 50%;
+	font-weight: 400;
+}
+
+div.asterisk{
+	text-align: center;
+	clear: both;
+	padding: 25px;
+}
+
+h2 {
+	font-family: "Crimson Text", "Times New Roman", Georgia, serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 48px;
+	letter-spacing: -1px;
+	line-height: 1.1em;
+	padding-bottom: 10px;
+}
+
+.trusted {
+	position: relative;
+}
+
+p.trusted-subtext {
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 1.3em;
+	color: #666;
+	text-align: left;
+	margin: 1em 0;
+}
+
+p.trusted-subtext img {
+	float: right;
+}
+
+.meet-customers {
+	clear: both;
+	position: absolute;
+	left: -35px;
+}
+
+#meet-customers-pic {
+	width: 143px;
+	height: 104px;
+	background: url("http://37signals.com/images/img-customers.png") 0 0 no-repeat;
+}
+
+#meet-customers-pic:hover {
+	background-position: 0 -104px; 
+}
+
+.meet-customers a {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 10px;
+	text-align: center;
+	color: #369;
+	text-decoration: none;
+	display: block;
+}
+
+.meet-customers a:hover {
+	text-decoration: underline;
+	color: #63b9d5;
+}
+
+.meet-customers img.arrow {
+	position: absolute;
+	left: 5px;
+	top: 120px;
+}
+
+.credo {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.left-credo-column{
+	width: 50%;
+	margin-top: 25px;
+	float: left;
+}
+
+.right-credo-column{
+	width: 50%;
+	margin-top: 25px;
+	float: right;
+}
+
+.credo-box-left {
+	clear: both;
+	text-align: left;
+	padding: 5px 25px 10px 4px;
+}
+
+.credo-box-right {
+	clear: both;
+	text-align: left;
+	padding: 5px 25px 10px 20px;
+}
+
+.credo-number {
+	font-family: "Crimson Text", "Times New Roman", Georgia, serif;
+	font-size: 58px;
+	font-weight: 500;
+	line-height: normal;
+	color: #CCC;
+	float: left;
+	margin: -28px 0 0 5px;  /* this must be messed up */
+}
+
+.credo-headline {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #C00;
+	text-align: left;
+	margin-left: 45px;
+}
+
+p.credo-text {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 12px;
+	text-align: left;
+	line-height: 1.4em;
+	margin-left: 45px;
+	padding: 5px 0 10px 0;
+}
+
+.credo-text a {
+	color: #369;
+	text-decoration: none;
+}
+
+.credo-text a:hover {
+	color: #63b9d5;
+	text-decoration: underline;
+}
+
+h2 em {
+	font-style: italic;
+}
+
+#testimonials {
+	text-align: center;
+	margin-top: 10px;
+}
+
+#testimonials img {
+	float: left;
+}
+
+.find-out-more {
+	position: relative;
+	top: -100px;
+	left: 40px;
+}
+
+.find-out-more a{
+	clear: both;
+	float: right;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 10px;
+	text-align: center;
+	color: #369;
+	text-decoration: none;
+	display: block;
+}
+
+.find-out-more .arrow { /*need help positioning this */
+	position: absolute;
+	top: 55px;
+	right: 95px;
+}
+
+p.quote {
+	font-style: italic;
+	color: #888;
+	font-size: 20px;
+	font-family: "CrimsonRomanItalic", "Times New Roman", Georgia, serif;
+	font-weight: normal;
+	line-height: 1.4em;
+	padding: 30px 0 0 0;
+}
+
+p.quote-attribute {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	color: #222;
+	font-size: 12px;
+	padding: 20px 0 10px 0;
+}
